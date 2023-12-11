@@ -1,8 +1,7 @@
 #include <iostream>
 
 int Foo(){
-
-
+    std::cout << "Hello FOO!" << std::endl;
 }
 
 int Bar(){
@@ -11,7 +10,8 @@ int Bar(){
 
 int main(){
     std::cout << "Hello World" << std::endl;
-
+   
     Bar();
+    Foo();
     return 0;
 }
